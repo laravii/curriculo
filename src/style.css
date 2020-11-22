@@ -1,0 +1,62 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  max-width: 80%;
+
+  line-height: 1.5;
+  box-sizing: border-box;
+  background-color: rgb(242, 253, 252);
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blueviolet;
+}
+ul li {
+  list-style: none;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1px solid black;
+}
+
+header h1 {
+  margin-left: 2rem;
+}
+.infos {
+  display: flex;
+  gap: 2rem;
+}
+.email {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.my-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 3rem;
+  border: 0.5px solid black;
+  object-fit: cover;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px;
+}
+li {
+  padding: 3px;
+}
+
+.text {
+  padding-left: 1rem;
+  margin-left: 3px;
+}
